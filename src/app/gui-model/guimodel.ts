@@ -150,7 +150,6 @@ export class GuiModel {
                     ]
                 },
 
-                //Eingefügt ActivityForm
                 {
                     "id": "ActivityForm",
                     "title": "Activity",
@@ -254,7 +253,6 @@ export class GuiModel {
                             "name": "Activity",
                             "icon": "fa-calendar",
                             "color": "orange",
-                            //Seite Aktivitäten errichten
                             "page": "activitypage",
                         },
                     ]
@@ -287,7 +285,6 @@ export class GuiModel {
                     ]
                 },
 
-                //Eingefügt: Aktivitätsseite
                 {
                     "id": "activitypage",
                     "elementList": [
@@ -467,4 +464,5 @@ export class GuiModel {
 
     get guiModel() {
         return this._guiModel;
+    }
 }
